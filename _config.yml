@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
-title: James Swartwood
+title: jamesswartwood.github.io
 description: Personal website for showcasing projects, etc.
 plugins:
   - jekyll-relative-links
