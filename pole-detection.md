@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Pole Detection w/ Uwing Library"
 permalink: /pole-detection/
 ---
