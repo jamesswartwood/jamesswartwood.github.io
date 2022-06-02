@@ -21,7 +21,7 @@ permalink: /pole-detection/
 
 ---
 
-<section id="background">
+<section id="background"></section>
 
 ## Background
 
@@ -33,7 +33,7 @@ Example images:
 
 ---
 
-<section id="description">
+<section id="description"></section>
 
 ## Project Description
  
@@ -41,7 +41,7 @@ In this project, we explored methods to automate detecting the top and bottom po
 
 ---
 
-<section id="algorithm">
+<section id="algorithm"></section>
 
 ## Developed Algorithm
 
@@ -66,7 +66,7 @@ The code for this project can be found in this dedicated GitHub repository: [jam
 
 ---
 
-<section id="results">
+<section id="results"></section>
 
 ## Results
 
@@ -83,7 +83,7 @@ These results are a small sample of all the images this algorithm was tested on.
 
 ---
 
-<section id="credits">
+<section id="credits"></section>
 
 ## Credits
 
