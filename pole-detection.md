@@ -31,12 +31,12 @@ In hydrology studies in the last decade, red poles installed in front of remote 
 
 <table>
     <tr>
-        <td width=50%><img src="images/data/c1_pole2.jpg" alt="1"></td>
-        <td width=50%><img src="images/data/c2_pole3.jpg" alt="2"></td>
+        <td width="50%"><img src="images/data/c1_pole2.jpg" alt="1"></td>
+        <td width="50%"><img src="images/data/c2_pole3.jpg" alt="2"></td>
     </tr> 
     <tr>
-        <td width=50%><img src="images/data/c1_pole2.jpg" alt="1"></td>
-        <td width=50%><img src="images/data/c2_pole3.jpg" alt="2"></td>
+        <td width="50%"><img src="images/data/c1_pole2.jpg" alt="1"></td>
+        <td width="50%"><img src="images/data/c2_pole3.jpg" alt="2"></td>
     </tr>
 </table>
 
