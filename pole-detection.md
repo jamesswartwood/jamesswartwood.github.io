@@ -27,9 +27,18 @@ permalink: /pole-detection/
 
 In hydrology studies in the last decade, red poles installed in front of remote cameras due to the advantage of providing continuous monitoring of snow depth through snow height change on the pole in the images. So far, manual extraction of the snow depth is recommended because current methods of automated extraction often produce inaccurate results, as daylight and weather changes influence the color and textures of the stakes. Manual extraction involves calculating the length in pixels of the portion of the snow depth stake that is visible to the camera. The snow depth around the stake can then be estimated by subtracting that from the known length of the stake and converting the pixel count into the metric system. This process requires prior knowledge of the camera intrinsics and the placement of the pole.
 
-Example images:
-![c1_pole2.jpg](images/data/c1_pole2.jpg)
-![c2_pole3.jpg](images/data/c2_pole3.jpg)
+### Example images:
+
+<table>
+    <tr>
+        <td width=50%><img src="images/data/c1_pole2.jpg" alt="1"></td>
+        <td width=50%><img src="images/data/c2_pole3.jpg" alt="2"></td>
+    </tr> 
+    <tr>
+        <td width=50%><img src="images/data/c1_pole2.jpg" alt="1"></td>
+        <td width=50%><img src="images/data/c2_pole3.jpg" alt="2"></td>
+    </tr>
+</table>
 
 ---
 
@@ -72,14 +81,14 @@ The code for this project can be found in this dedicated GitHub repository: [jam
 
 These results are a small sample of all the images this algorithm was tested on. Full results can be found on GitHub: [jamesswartwood/uwing-pole-detection](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-![c1_pole1.jpg](images/annotated/c1_pole1.jpg)
-![c1_pole2.jpg](images/annotated/c1_pole2.jpg)
-![c1_pole3.jpg](images/annotated/c1_pole3.jpg)
-![c1_pole4.jpg](images/annotated/c1_pole4.jpg)
-![c2_pole1.jpg](images/annotated/c2_pole1.jpg)
-![c2_pole2.jpg](images/annotated/c2_pole2.jpg)
-![c2_pole3.jpg](images/annotated/c2_pole3.jpg)
-![c2_pole4.jpg](images/annotated/c2_pole4.jpg)
+![](images/annotated/c1_pole1.jpg)
+![](images/annotated/c1_pole2.jpg)
+![](images/annotated/c1_pole3.jpg)
+![](images/annotated/c1_pole4.jpg)
+![](images/annotated/c2_pole1.jpg)
+![](images/annotated/c2_pole2.jpg)
+![](images/annotated/c2_pole3.jpg)
+![](images/annotated/c2_pole4.jpg)
 
 ---
 
@@ -89,7 +98,7 @@ These results are a small sample of all the images this algorithm was tested on.
 
 ### Author
 
-Updated 06/02/2022 - [James Swartwood](https://www.linkedin.com/in/jamesswartwood/) is a third-year student at the Paul G. Allen School of Computer Science and Engineering at the University of Washington. He aspires to become a computer vision developer and machine learning engineer.
+[James Swartwood](https://www.linkedin.com/in/jamesswartwood/) is a third-year student at the Paul G. Allen School of Computer Science and Engineering at the University of Washington. He aspires to become a computer vision developer and machine learning engineer. *- Last Updated 06/02/2022*
 
 ### Acknowledgements
 
