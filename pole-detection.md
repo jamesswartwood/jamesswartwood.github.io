@@ -83,7 +83,7 @@ The code for this project can be found in this dedicated GitHub repository: [jam
 
 ### Statistical Results
 
-Camera 3 was selected for large-scale testing because of the large amount of change in snow-depth across the dataset. 1305 images were manually labeled for comparison. Here are the results in spreadsheet form: [Statistical Results](https://jamesswartwood.github.io/data/camera_3_data.csv)
+Camera 3 was selected for large-scale testing because of the large amount of change in snow-depth across the dataset. 1305 images were manually labeled for comparison. Here are the results in spreadsheet form: [Statistical Results](https://github.com/jamesswartwood/jamesswartwood.github.io/blob/main/data/camera_3_data.csv)
 
 #### Summary:
 
