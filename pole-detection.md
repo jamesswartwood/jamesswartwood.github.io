@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Pole Detection w/ Uwing Library"
+title: "Pole Detection w/ Uwimg Library"
 permalink: /pole-detection/
 ---
 
-# Hydrology Research Tool - Pole Detection w/ Uwing Library
+# Hydrology Research Tool - Pole Detection w/ Uwimg Library
 
 ---
 
@@ -14,6 +14,7 @@ permalink: /pole-detection/
 - <a href="#description">Project Description</a>
 - <a href="#algorithm">Developed Algorithm</a>
 - <a href="#results">Results</a>
+- <a href="#conclusion">Conclusion</a>
 - <a href="#credits">Credits</a>
 
 ## GitHub Repository
@@ -29,16 +30,17 @@ In hydrology studies in the last decade, red poles installed in front of remote 
 
 ### Example images:
 
-<table>
-    <tr>
-        <td width="50%"><img src="images/data/c1_pole2.jpg" alt="1"></td>
-        <td width="50%"><img src="images/data/c2_pole3.jpg" alt="2"></td>
-    </tr> 
-    <tr>
-        <td width="50%"><img src="images/data/c1_pole2.jpg" alt="1"></td>
-        <td width="50%"><img src="images/data/c2_pole3.jpg" alt="2"></td>
-    </tr>
-</table>
+#### Camera 1
+
+![](images/data/c1_pole2.jpg)
+
+#### Camera 2
+
+![](images/data/c2_pole3.jpg)
+
+#### Camera 3
+
+![](images/data/c3_pole3.jpg)
 
 ---
 
@@ -46,7 +48,7 @@ In hydrology studies in the last decade, red poles installed in front of remote 
 
 ## Project Description
  
-In this project, we explored methods to automate detecting the top and bottom points of the red poles using the [uwing] computer vision library that students develop while taking CSE 455 at the University of Washington, Seattle. This approach must account for differences in pole locations in the images and weather/daylight images that make change pixel color values. There are many ways to implement the detection of objects in an image.
+In this project, we explored methods to automate detecting the top and bottom points of the red poles using the [uwimg](https://github.com/pjreddie/uwimg/) computer vision library that students develop while taking [CSE 455](https://courses.cs.washington.edu/courses/cse455/22sp/) at the University of Washington, Seattle. This approach must account for differences in pole locations in the images and weather/daylight images that make change pixel color values. There are many ways to implement the detection of objects in an image.
 
 ---
 
@@ -79,16 +81,63 @@ The code for this project can be found in this dedicated GitHub repository: [jam
 
 ## Results
 
+### Statistical Results
+
+Camera 3 was selected for large-scale testing because of the large amount of change in snow-depth across the dataset. 1305 images were manually labeled for comparison. Here are the results in spreadsheet form: [Statistical Results](https://jamesswartwood.github.io/data/camera_3_data.csv)
+
+#### Summary:
+
+Runtime:
+
+- Total number of images: **1305**
+- Total runtim in seconds: **157.4238**
+- Average runtime per image in seconds: **0.1206**
+
+Classification:
+
+- Number of images where snow covered camera: **455**
+- Total number of images where the pole was found: **838**
+- Total number of images where the pole was not found: **12**
+- Classification accuracy rating: **98.6%**
+
+Detection:
+
+- Minimum difference in pixels: **0**
+- Maximum difference in pixels: **393.3**
+- Average (mean) difference in pixels: **71.0**
+
+### Visual Results
+
 These results are a small sample of all the images this algorithm was tested on. Full results can be found on GitHub: [jamesswartwood/uwing-pole-detection](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+#### Camera 1
 
 ![](images/annotated/c1_pole1.jpg)
 ![](images/annotated/c1_pole2.jpg)
 ![](images/annotated/c1_pole3.jpg)
 ![](images/annotated/c1_pole4.jpg)
+
+#### Camera 2
+
 ![](images/annotated/c2_pole1.jpg)
 ![](images/annotated/c2_pole2.jpg)
 ![](images/annotated/c2_pole3.jpg)
 ![](images/annotated/c2_pole4.jpg)
+
+#### Camera 3
+
+![](images/annotated/c3_pole1.jpg)
+![](images/annotated/c3_pole2.jpg)
+![](images/annotated/c3_pole3.jpg)
+![](images/annotated/c3_pole4.jpg)
+
+---
+
+<section id="conclusion"></section>
+
+## Conclusion
+
+This automated method of detecting the poles has great promise. The algorithm was efficient, with a runtime of 0.1206 seconds per images. It was very consistent in its ability to classify the presence of a pole, displaying an accuracy rating of 98.6% on the camera 3 dataset. The detection proved to be accurate on the vast majority of images from camera 3, but there were a portion of the images where the estimation greatly overshot or undershot the pole length, causing an average difference of 71 pixels per measurement across the dataset. There is much work to be done in fine-tuning it to account for all environmental factors, which were the main cause of discrepancy between the manual and automated labeling. Changes in the environment, including lighting, lens blur due to snow, and falling objects covering the bottom of the pole, made it difficult for the algorithm to accurately detect the edges along the sides, top, and bottom of the poles. Given more time, adjustments could be made to the conditions of these actions to improve the general accuracy of the program.
 
 ---
 
@@ -102,6 +151,6 @@ These results are a small sample of all the images this algorithm was tested on.
 
 ### Acknowledgements
 
-Thank you to Catherine Breen, the environmental scientist consulted during this project.
+Thank you to [Catherine Breen](https://www.linkedin.com/in/katie-m-breen/), the environmental scientist consulted during this project.
 
-Thank you to Dr. Joseph Redmon for teaching the CSE 455 class and providing insight into computer vision methods for this project.
+Thank you to [Dr. Joseph Redmon](https://pjreddie.com/) for teaching the [CSE 455](https://courses.cs.washington.edu/courses/cse455/22sp/) class and providing insight into computer vision methods for this project.
