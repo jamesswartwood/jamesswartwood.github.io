@@ -90,7 +90,7 @@ Camera 3 was selected for large-scale testing because of the large amount of cha
 Runtime:
 
 - Total number of images: **1305**
-- Total runtim in seconds: **157.4238**
+- Total runtime in seconds: **157.4238**
 - Average runtime per image in seconds: **0.1206**
 
 Classification:
