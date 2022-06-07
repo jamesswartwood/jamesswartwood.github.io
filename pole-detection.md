@@ -64,7 +64,7 @@ In this project, we explored methods to automate detecting the top and bottom po
 
 This is a general summary of the algorithm. Small intermediate steps are glossed over. For full understanding of process, refer to the code itself.
 
-The code for this project can be found in this dedicated GitHub repository: [jamesswartwood/uwing-pole-detection](https://github.com/jamesswartwood/pole-detection)
+The code for this project can be found in this dedicated GitHub repository: [jamesswartwood/pole-detection](https://github.com/jamesswartwood/pole-detection)
 
 ```markdown
 1. Sweep image for red pixel.
@@ -115,7 +115,7 @@ Detection:
 
 ### Visual Results
 
-These results are a small sample of all the images this algorithm was tested on. Full results can be found on GitHub: [jamesswartwood/uwing-pole-detection](https://github.com/jamesswartwood/pole-detection)
+These results are a small sample of all the images this algorithm was tested on. Full results can be found on GitHub: [jamesswartwood/pole-detection](https://github.com/jamesswartwood/pole-detection)
 
 #### Camera 1
 
