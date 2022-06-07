@@ -8,6 +8,12 @@ permalink: /pole-detection/
 
 ---
 
+## Video Introduction
+
+- [YouTube Link](https://youtu.be/a5mghKjqqSQ)
+
+---
+
 ## Contents
 
 - <a href="#background">Background</a>
