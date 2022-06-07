@@ -18,7 +18,7 @@ permalink: /pole-detection/
 - <a href="#credits">Credits</a>
 
 ## GitHub Repository
-- [jamesswartwood/uwing-pole-detection](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- [jamesswartwood/pole-detection](https://github.com/jamesswartwood/pole-detection)
 
 ---
 
@@ -58,7 +58,7 @@ In this project, we explored methods to automate detecting the top and bottom po
 
 This is a general summary of the algorithm. Small intermediate steps are glossed over. For full understanding of process, refer to the code itself.
 
-The code for this project can be found in this dedicated GitHub repository: [jamesswartwood/uwing-pole-detection](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+The code for this project can be found in this dedicated GitHub repository: [jamesswartwood/uwing-pole-detection](https://github.com/jamesswartwood/pole-detection)
 
 ```markdown
 1. Sweep image for red pixel.
@@ -69,7 +69,8 @@ The code for this project can be found in this dedicated GitHub repository: [jam
     - If the second measured pole width matches the first, we have found the pole. Otherwise, continue step 1.
 5. Use the identified pixels and measured pole widths to find two points along the very center of the pole.
 6. Calculate the tilt of the pole by finding the slope between the two points.
-7. Project down the length of the pole using the measured slope to find the bottom edge. Before the bottom is found, occasionally recalibrate to the center of the pole to account for any bend in the pole and recalculate the slope.
+7. Project down the length of the pole using the measured slope to find the bottom edge.
+    - Before the bottom is found, occasionally recalibrate to the center of the pole to account for any bend in the pole and recalculate the slope.
 8. Project up the length of the pole to find top edge of the red portion of the pole.
 9. Project up further still to find the top edge of the yellow portion of the pole.
 10. Output the top and bottom points of the pole. Update the image with annotations of the detection.
@@ -108,7 +109,7 @@ Detection:
 
 ### Visual Results
 
-These results are a small sample of all the images this algorithm was tested on. Full results can be found on GitHub: [jamesswartwood/uwing-pole-detection](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+These results are a small sample of all the images this algorithm was tested on. Full results can be found on GitHub: [jamesswartwood/uwing-pole-detection](https://github.com/jamesswartwood/pole-detection)
 
 #### Camera 1
 
