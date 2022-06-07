@@ -32,7 +32,7 @@ permalink: /pole-detection/
 
 ## Background
 
-In hydrology studies in the last decade, red poles installed in front of remote cameras due to the advantage of providing continuous monitoring of snow depth through snow height change on the pole in the images. So far, manual extraction of the snow depth is recommended because current methods of automated extraction often produce inaccurate results, as daylight and weather changes influence the color and textures of the stakes. Manual extraction involves calculating the length in pixels of the portion of the snow depth stake that is visible to the camera. The snow depth around the stake can then be estimated by subtracting that from the known length of the stake and converting the pixel count into the metric system. This process requires prior knowledge of the camera intrinsics and the placement of the pole.
+In hydrology studies in the last decade, red poles have been installed in front of remote cameras due to the advantage of providing continuous monitoring of snow depth through snow height change on the pole in the images. So far, manual extraction of the snow depth is recommended because current methods of automated extraction often produce inaccurate results, as daylight and weather changes influence the color and textures of the poles. Manual extraction involves calculating the length in pixels of the portion of the pole that is visible to the camera. The snow depth around the pole can then be estimated by subtracting that from the known length of the pole and converting the pixel count into the metric system. This process requires prior knowledge of the camera intrinsics and the placement of the pole.
 
 ### Example images:
 
